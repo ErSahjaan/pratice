@@ -1,0 +1,263 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(16, 4, 105, 0.1);
+  }
+
+   
+  .navbar-logo {
+    width: 140px;
+    /* display: flex; */
+    align-items: center;
+    color: white;
+    margin-right: 30px;
+  }
+
+  .navbar-logo img {
+    width: 150%;
+    height: auto;
+    color: white;
+    /* margin-top: 10px; */
+  }
+  .bm-menu1 {
+    padding: 0.5rem 1rem;
+  color: #fff;
+  /* background: #FF4820; */
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 70px;
+  text-decoration: none;
+ 
+}
+.bm-menu2 {
+  padding: 0.5rem 1rem;
+color: #fff;
+/* background: #FF4820; */
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 5px;
+margin-right: -30px;
+/* margin-left: 100px; */
+text-decoration: none;
+
+}
+
+.bm-menu3 {
+  padding: 0.5rem 1rem;
+color: #fff;
+/* background: #FF4820; */
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 5px;
+margin-right: -30px;
+/* margin-left: 100px; */
+text-decoration: none;
+
+}
+.bm-menu4 {
+  padding: 0.5rem 1rem;
+color: #fff;
+/* background: #FF4820; */
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 5px;
+margin-right: -30px;
+/* margin-left: 100px; */
+text-decoration: none;
+
+}
+.bm-menu5 {
+  padding: 0.5rem 1rem;
+color: #fff;
+/* background: #FF4820; */
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 5px;
+margin-right: -30px;
+/* margin-left: 100px; */
+text-decoration: none;
+
+}
+.bm-menu6 {
+  padding: 0.5rem 1rem;
+color: #fff;
+/* background: #FF4820; */
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 5px;
+margin-right: 30px;
+/* margin-left: 100px; */
+text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 700px) {
+  .gpt3__navbar {
+      padding: 2rem 4rem;
+  }
+}
+
+/* @media screen and (max-width: 550px) {
+  .gpt3__navbar {
+      padding: 2rem;
+  }
+
+  .gpt3__navbar-sign {
+      display: none;
+  }
+
+  .gpt3__navbar-menu_container {
+      top: 20px;
+  } */
+
+  /* .gpt3__navbar-menu_container-links-sign {
+      display: block;
+
+      padding: 0.5rem 1rem;
+  color: #fff;
+  background: #FF4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  } */
+
+
+  
+  
+
+  .bm-menu {
+    /* background-color: #333; */
+    color: #fff;
+     font-size: 1.15rem; 
+    /* padding: 1.5em; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    text-decoration: none;
+    /* left: 50; */
+    
+  }
+
+  
+.bm-menu-wrap {
+    position: relative;
+  }
+
+  .bm-menu {
+    width: 300px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    margin-left: 50px;
+    /* right: 20; */
+  }
+
+
+
+  .bm-menu .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 24px;
+    top: 16px;
+  }
+
+  .bm-menu .bm-burger-bars {
+    background-color: #fff;
+  }
+  
+  .bm-menu .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+
+  
+.bm-menu .bm-menu-wrap {
+    overflow: visible;
+  }
+  
+
+  .bm-menu .bm-menu-item {
+    font-size: 1.15rem;
+    padding: 0.5em 1.5em;
+  }
+  
+  .bm-menu .bm-menu-item:hover {
+    background-color: #000;
+  }
+  
+  .bm-menu .bm-menu-item:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .bm-menu .bm-menu-item:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar-logo {
+      width: 70px;
+    }
+  
+    .bm-menu {
+      width: 250px;
+    }
+  
+    .bm-menu-item {
+      font-size: 1rem;
+    }
+  }
+  

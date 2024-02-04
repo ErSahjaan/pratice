@@ -1,0 +1,34 @@
+.contactBlock {
+    background-color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+
+  .titleHolder h2 {
+    color: #1e6eba;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .contact-form-button {
+    width: 100%;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-form {
+      max-width: 100%;
+    }
+  }
+
+  /* Additional responsive styles as needed */
+  @media (max-width: 480px) {
+    .contactBlock {
+      padding: 20px;
+    }
+  }

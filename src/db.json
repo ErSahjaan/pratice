@@ -1,0 +1,23 @@
+
+{
+    "questions": [
+      {
+        "id": 1,
+        "type": "multipleChoice",
+        "text": "What is your favorite color?",
+        "options": ["Red", "Blue", "Green", "Yellow"]
+      },
+      {
+        "id": 2,
+        "type": "text",
+        "text": "What is your favorite book?"
+      }
+     
+    ],
+    "rewards": [
+      { "id": 1, "name": "Discount Coupon", "pointsRequired": 20 },
+      { "id": 2, "name": "Gift Card", "pointsRequired": 50 }
+      
+    ]
+  }
+  

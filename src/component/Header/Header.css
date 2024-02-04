@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/garet'); 
+
+/* .fullpage-image-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .fullpage-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+  }
+  
+  .fullpage-image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .fullpage-image-container {
+      height: auto;
+    }
+  
+    .fullpage-image {
+      height: auto;
+      width: 100%;
+    }
+  } */
+
+
+
+/* Header.css */
+
+
+.fullpage-image-container {
+  position: relative;
+  text-align: center;
+  display: flex;
+}
+
+.fullpage-image {
+  max-width: 100%;
+  /* Ensures the image does not exceed its original size */
+  height: auto;
+      margin-top: 5%;
+  /* margin-bottom: 5%;    */
+  /* Maintains the aspect ratio of the image */
+}
+
+.fullpage-image-content {
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  bottom: 300%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Adjust text color as needed */
+  /* Add other styles for your content */
+}
+
+
+.gpt3__header-content__input {
+  text-align: center;
+  /* margin-top: 20px; */
+
+  
+}
+
+.email {
+  padding: 16px 10px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+   border-radius: 1.5rem;
+   background-color: #fcc603; 
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding-block: 0.563em;
+ 
+  transition: all 0.25s ease;
+  display: flex;
+
+  gap: 0.4rem;
+  
+
+}
+
+.gg{
+cursor: pointer;
+    background-color: var(--clr-accent-700);
+    border: 2px solid transparent;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding-block: 0.563em;
+    padding-inline: 1em;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 45px;
+}
+
+.email::placeholder {
+  font-size: 30px; /* Set the desired font size */
+  
+ 
+}
+
+
+
+button {
+  padding: 40px 30px;
+  background-color: darkblue;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.gpt3__header-content__input {
+
+  position: absolute;
+  bottom: 0;
+  padding: 180px;
+   margin-bottom: 35px;
+  background-size: 300px 100px;
+  font-size: 28px;
+  color: white;
+
+  font-weight: bold;
+  font-family: 'Garet', ;
+ 
+  /* font-family: white; */
+
+}
+
+.email::placeholder {
+  font-size: 30px; 
+  color: #fff;
+  background-color: #fff;
+
+  
+ 
+}
