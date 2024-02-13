@@ -31,9 +31,10 @@ const FullPageImage = () => {
       <div className="fullpage-image-content" style={contentStyle}>
       </div>
       <div className="gpt3__header-content__input">
-        <a className="email"  type = "email" href="/contact">GET STARTED</a>
+        <a className="email"  type = "email" href="/contact"><strong>GET STARTED</strong></a>
         
       </div>
+      
      
       
     </div>

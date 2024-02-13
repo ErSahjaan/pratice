@@ -24,6 +24,9 @@ import Sahjaan4 from './component/Header/Sahjaan4';
 import Sahjaan5 from './component/Header/Sahjaan5';
 import Sahjaan6 from './component/Header/Sahjaan6';
 import Sahjaan7 from './component/Header/Sahjaan7';
+import Oodles from './component/Header/OodlesForm';
+import ServiceAndPolicy from './component/Header/ServiceAndPolicy';
+import TermsAndConditions from './component/Header/TermsAndCondition';
 
 const { Content } = Layout;
 
@@ -33,6 +36,7 @@ const App = () => {
       
         <Navbar />
         <Routes>
+          
         <Route path="/" element={<Sahjaan/>} />
           {/* <Route path="/" element={<FullPageImage/>} /> */}
           <Route  path="/home" element={<Sahjaan />} />
@@ -41,7 +45,14 @@ const App = () => {
           <Route path="/service" element={<Sahjaan3/>}/>
           <Route path="/CaseStudies" element={<Sahjaan5/>}/>
           <Route path="/SignUp" element={<Sahjaan6/>}/>
-          <Route path="/login" element={<Sahjaan7/>}/>
+          <Route path="/Register" element={<Oodles/>}/>
+          <Route path="/Login" element={<LoginForm/>}/>
+          <Route path="/privacy_policy" element={<ServiceAndPolicy/>}/>
+          <Route path="/terms_conditions" element={<TermsAndConditions/>}/>
+        
+
+
+          {/* <Route path="/login" element={<Sahjaan7/>}/> */}
         </Routes>
         <AppFooter1 />
       

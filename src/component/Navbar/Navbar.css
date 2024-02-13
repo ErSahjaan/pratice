@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkblue;
+    /* background-color: darkblue; */
+    background-color: #011633;
     padding: 15px;
     position: fixed;
     top: 0;

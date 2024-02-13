@@ -18,7 +18,7 @@ const Navbar = () => {
         <a id="services" className="bm-menu3" href="/service">Services</a>
         <a id="contact" className="bm-menu4" href="/CaseStudies">Impact Stories</a>
         <a id="contact" className="bm-menu5" href="/contact">Contact</a>
-        <a id="contact" className="bm-menu6" href="/SignUp">Sign Up</a>
+        <a id="contact" className="bm-menu6" href="https://dev.oodlesai.com/dashboard">Sign Up</a>
      
     </div>
   );

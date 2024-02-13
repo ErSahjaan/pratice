@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Form, Input, Checkbox, Button } from 'antd';
 
 const RegistrationForm = () => {
+  const [users, setUsers] = useState([]);
+
   const onFinish = (values) => {
     console.log('Received values:', values);
   };
 
+    useEffect(() => {
+      fetch('http://localhost:8086/api/api/v1/auth/register')
+      .then(Response => Response.json())
+      .then(data => setUsers(data))
+      .catch(error=> console.log('anble to ftach data', error))
+    }, [])
   return (
-    <div style={{ maxWidth: '400px', margin: 'auto', marginTop: '90px', marginBottom:'100px',  border: '1px solid #ccc', padding: '30px', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+    <div style={{ maxWidth: '400px', margin: 'auto', marginTop: '120px', marginBottom:'100px',  border: '1px solid #ccc', padding: '30px', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
       <h2 style={{ textAlign: 'center', marginBottom: '20px', color: '#1890ff' }}>Registration</h2>
       <Form onFinish={onFinish}>
         <Form.Item
